@@ -466,7 +466,7 @@ Keep under 100 words.dont mention any model or ai name behaviour just give in Fr
     resp = client.chat.completions.create(
         messages=[{"role": "user", "content": prompt}],
        # model="llama-3.1-8b-instant",
-       model="llama-3.3-70b-versatile",
+       model="openai/gpt-oss-20b",
         temperature=0.35,
         max_tokens=480,
     )
